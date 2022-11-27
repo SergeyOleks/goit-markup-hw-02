@@ -1,0 +1,225 @@
+body{
+    background-color: #ffffff;
+    color: var(--primary-text-color);
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+
+
+:root {
+    --primary-text-color: #212121;
+    --text-color-buttonlink: #2196F3;
+    --text-color-active:#ffffff;
+    --text-color:#757575;
+    --background-button:#F5F4FA;
+    --background-first-section:#2F303A;
+    --color-logo:#000000;
+    --color-footer-mail-phone:rgba(255, 255, 255, 0.6);
+}
+
+.main{
+    width: 1600px;
+    margin: 0, auto;
+}
+.main-button{
+    margin-top: 30px;
+    background-color: var(--text-color-buttonlink);
+    color: var(--text-color-active);
+    font-weight: 700;
+    line-height: 30px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;   
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    width: 216px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 4px;
+}
+.button{
+    background-color: var(--background-button);
+    border: none;
+    cursor: pointer;
+}
+.button:hover,
+.button:focus{
+    background-color: var(--text-color-buttonlink);
+    color:var(--text-color-active);
+    border: none;
+}
+
+/* header */
+.logo {
+    text-decoration: none;
+    color: var(--color-logo);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    height: 31px;
+}
+
+.logo-web {
+    color: var(--text-color-buttonlink);
+}
+
+.nav-item{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.nav-item a{
+    text-decoration: none;
+}
+
+.nav-item:hover a{
+    color: var(--text-color-buttonlink);
+}
+
+.header-mail{
+    text-decoration: none;
+    color: var(--text-color-buttonlink);  
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
+.header-phone{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.nav-item{
+    list-style: none;
+}
+
+/* первая секция */
+.first-section{
+    background-color: var(--background-first-section);
+}
+.main-tittle{
+    color: var(--text-color-active);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+/* вторая секция */
+.features-list .title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.features-list .text{
+    color: var(--text-color);
+    font-size: 14px;
+    line-height: 1.71;     
+    letter-spacing: 0.03em;
+    width: 270px;
+}
+
+.features-list{
+    list-style: none;
+}
+
+/* секция чем мы занимаемся*/
+.about-head{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    height: 42px;
+}
+.about-list{
+    list-style: none;
+}
+
+/*секция наша команда */
+.team-list{
+    list-style: none;
+}
+.team-head{
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+}
+.team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    width: 129px;
+}
+.team-profession{
+    color: var(--text-color); 
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    width: 130px;
+}
+
+/*footer */
+.footer{
+    background-color: var(--background-first-section);
+}
+.address{
+    color: var(--text-color-active);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.footer-phone{
+    color: var(--color-footer-mail-phone);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.footer-mail{
+    text-decoration: none;
+    color: var(--color-footer-mail-phone);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;    
+}
+
+/*gallery*/
+.list-buttons .item{
+    list-style: none;
+}
+.gallery-item{
+    list-style: none;
+}
+.gallery-head{  
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 700;
+    letter-spacing: 0.06em;    
+}
+.gallery-text{
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;    
+}
